@@ -40,6 +40,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _errorpage_errorpage_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./errorpage/errorpage.component */ "./src/app/errorpage/errorpage.component.ts");
 /* harmony import */ var _pagination_pagination_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pagination/pagination.component */ "./src/app/pagination/pagination.component.ts");
 /* harmony import */ var _dummy_dummy_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dummy/dummy.component */ "./src/app/dummy/dummy.component.ts");
+/* harmony import */ var _employeelist_employeelist_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./employeelist/employeelist.component */ "./src/app/employeelist/employeelist.component.ts");
+
 
 
 
@@ -54,7 +56,8 @@ const routes = [
     { path: 'signin', component: _signin_signin_component__WEBPACK_IMPORTED_MODULE_3__["SigninComponent"] },
     { path: 'errorpage', component: _errorpage_errorpage_component__WEBPACK_IMPORTED_MODULE_4__["ErrorpageComponent"] },
     { path: 'dummy', component: _dummy_dummy_component__WEBPACK_IMPORTED_MODULE_6__["DummyComponent"] },
-    { path: 'pagination', component: _pagination_pagination_component__WEBPACK_IMPORTED_MODULE_5__["PaginationComponent"] }
+    { path: 'pagination', component: _pagination_pagination_component__WEBPACK_IMPORTED_MODULE_5__["PaginationComponent"] },
+    { path: 'employeelist', component: _employeelist_employeelist_component__WEBPACK_IMPORTED_MODULE_7__["EmployeelistComponent"] }
 ];
 class AppRoutingModule {
 }
@@ -133,6 +136,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./header/header.component */ "./src/app/header/header.component.ts");
 /* harmony import */ var _dummy_dummy_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./dummy/dummy.component */ "./src/app/dummy/dummy.component.ts");
 /* harmony import */ var _pagination_pagination_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pagination/pagination.component */ "./src/app/pagination/pagination.component.ts");
+/* harmony import */ var _employeelist_employeelist_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./employeelist/employeelist.component */ "./src/app/employeelist/employeelist.component.ts");
+
 
 
 
@@ -159,7 +164,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _errorpage_errorpage_component__WEBPACK_IMPORTED_MODULE_7__["ErrorpageComponent"],
         _header_header_component__WEBPACK_IMPORTED_MODULE_8__["HeaderComponent"],
         _dummy_dummy_component__WEBPACK_IMPORTED_MODULE_9__["DummyComponent"],
-        _pagination_pagination_component__WEBPACK_IMPORTED_MODULE_10__["PaginationComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _pagination_pagination_component__WEBPACK_IMPORTED_MODULE_10__["PaginationComponent"],
+        _employeelist_employeelist_component__WEBPACK_IMPORTED_MODULE_11__["EmployeelistComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
@@ -172,7 +178,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _errorpage_errorpage_component__WEBPACK_IMPORTED_MODULE_7__["ErrorpageComponent"],
                     _header_header_component__WEBPACK_IMPORTED_MODULE_8__["HeaderComponent"],
                     _dummy_dummy_component__WEBPACK_IMPORTED_MODULE_9__["DummyComponent"],
-                    _pagination_pagination_component__WEBPACK_IMPORTED_MODULE_10__["PaginationComponent"]
+                    _pagination_pagination_component__WEBPACK_IMPORTED_MODULE_10__["PaginationComponent"],
+                    _employeelist_employeelist_component__WEBPACK_IMPORTED_MODULE_11__["EmployeelistComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -292,6 +299,54 @@ DummyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
                 selector: 'app-dummy',
                 templateUrl: './dummy.component.html',
                 styleUrls: ['./dummy.component.scss']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/employeelist/employeelist.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/employeelist/employeelist.component.ts ***!
+  \********************************************************/
+/*! exports provided: EmployeelistComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EmployeelistComponent", function() { return EmployeelistComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+
+
+
+class EmployeelistComponent {
+    constructor() {
+    }
+    ngOnInit() {
+    }
+}
+EmployeelistComponent.ɵfac = function EmployeelistComponent_Factory(t) { return new (t || EmployeelistComponent)(); };
+EmployeelistComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EmployeelistComponent, selectors: [["app-employeelist"]], decls: 8, vars: 0, template: function EmployeelistComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0, "div class=\"employee-box\"> ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Employee details");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "form");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Name of the Employee");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Girish");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2VtcGxveWVlbGlzdC9lbXBsb3llZWxpc3QuY29tcG9uZW50LnNjc3MifQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EmployeelistComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-employeelist',
+                templateUrl: './employeelist.component.html',
+                styleUrls: ['./employeelist.component.scss']
             }]
     }], function () { return []; }, null); })();
 
